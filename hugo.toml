@@ -1,0 +1,35 @@
+baseURL = 'http://localhost:1313'
+languageCode = 'zh-tw'
+title = 'My Blog'
+theme = 'PaperMod'
+
+[params]
+env = "production"
+title = "My Blog"
+description = "My Hugo Blog"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+
+[params.homeInfoParams]
+Title = "歡迎來到我的部落格 👋"
+Content = "這裡分享我的學習心得和技術筆記"
+
+[[menu.main]]
+identifier = "home"
+name = "首頁"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "posts"
+name = "文章"
+url = "/posts/"
+weight = 20
+
+[[menu.main]]
+identifier = "tags"
+name = "標籤"
+url = "/tags/"
+weight = 30

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on My Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My Blog</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一篇文章</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;h2 id=&#34;開始使用-hugo&#34;&gt;開始使用 Hugo&lt;/h2&gt;
+&lt;p&gt;Hugo 是一個靜態網站生成器，這意味著它可以將純文本文件轉換為靜態網站。這些文件通常是用 Markdown 寫的，這是一種輕量級的標記語言，非常適合寫作。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

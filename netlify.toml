@@ -1,0 +1,26 @@
+[build]
+  command = "hugo --minify --baseURL $DEPLOY_PRIME_URL"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.148.1"
+  HUGO_EXTENDED = "true"
+  NODE_VERSION = "18"
+
+[context.production]
+  command = "hugo --minify --baseURL $URL"
+
+[context.production.environment]
+  HUGO_ENV = "production"
+
+[context.deploy-preview]
+  command = "hugo --buildFuture --baseURL $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+  command = "hugo --buildFuture --baseURL $DEPLOY_PRIME_URL"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
